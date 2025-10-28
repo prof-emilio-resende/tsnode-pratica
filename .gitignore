@@ -1,0 +1,47 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+/dist/
+/build/
+/lib/
+/out/
+/tmp/
+/temp/
+
+# TypeScript
+*.tsbuildinfo
+.ts-node/
+
+# Testing / Coverage
+coverage/
+.nyc_output/
+.jest-cache/
+.jest/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Caches
+.cache/
+.eslintcache
+
+# Misc
+node-repl-history
